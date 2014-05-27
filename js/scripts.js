@@ -26,4 +26,22 @@ $jq(function(){
 	})	
 
 
+	 var footerSlider = $jq('.footer-partenaires-list').swiper({
+	    mode:'horizontal',
+	    pagination: false,
+	    slidesPerView: 3,
+	    paginationClickable: true,
+	    grabCursor: true,
+	    loop: true
+	  });
+
+	 $jq('.partenaire-prev').on('click', function(e){
+	e.preventDefault()
+	footerSlider.swipePrev()
+	})
+	$jq('.partenaire-next').on('click', function(e){
+	e.preventDefault()
+	footerSlider.swipeNext()
+	})	
+
 })

@@ -1144,3 +1144,30 @@ left: 7.5%;
 height: 30px;
 line-height: 30px;
 }
+.footer-sitemap {
+padding: 2em 0;
+}
+.footer-sitemap li:first-child {
+border-left: none;
+}
+.footer-sitemap li {
+display: inline-block;
+padding: 0 1em;
+border-left: 1px solid #3E585A;
+}
+.footer-bottom .inner {
+position: relative;
+}
+.nantes-just-imagine {
+position: absolute;
+right: 0;
+top: 1em;
+}
+.footer-bottom .inner {
+position: relative;
+padding: 1em 0;
+}
+.footer-mentions a {
+color: #8d9ca2;
+text-decoration: underline;
+}

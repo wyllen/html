@@ -44,4 +44,14 @@ $jq(function(){
 	footerSlider.swipeNext()
 	})	
 
+
+	$jq('.header-account-links a').on('click', function(e){
+		e.preventDefault()		
+		$jq('.login-lightbox-wrapper').fadeIn();
+	})	
+$jq('.close-lightbox').on('click', function(e){
+		e.preventDefault()		
+		$jq('.login-lightbox-wrapper').fadeOut();
+	})	
+
 })

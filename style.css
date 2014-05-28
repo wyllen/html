@@ -1570,8 +1570,10 @@ height: 100%;
 background: url(imgs/black-o80.png);
 z-index: 4;
 text-align: center;
+display: none;
 }
 .login-lightbox {
+	position: relative;
 width: 680px;
 }
 .login-lightbox .col-2-1 {
@@ -1584,7 +1586,7 @@ margin-bottom: 1em;
 }
 .login-lightbox-content-form {
 padding: 1em 2em;
-min-height: 200px;
+min-height: 230px;
 position: relative;
 padding-bottom: 50px;
 }
@@ -1595,4 +1597,23 @@ bottom: 0;
 width: 100%;
 text-align: center;
 left: 0;
+}
+.login-lightbox-submit {
+display: inline-block;
+width: 70%;
+border-radius: 12px;
+padding: 0.6em 0;
+font-size: 1.2em;
+margin-top: 0.4em;
+}
+.login-lightbox input {
+width: 100%;
+border-radius: 50px;
+margin-bottom: 2em;
+}
+.close-lightbox {
+position: absolute;
+top: 1em;
+right: 1em;
+cursor: pointer;
 }

@@ -822,6 +822,7 @@ margin-bottom: 0.6em;
 	position: relative;
 padding-left: 2%;
 height: 240px;
+margin-bottom: 2.5em;
 }
 .programme-item:first-child {
 padding-left: 0;
@@ -903,6 +904,14 @@ left: -10px;
 .programme-item-link:hover {
 color: #002b3d;
 background: #fff;
+}
+.programme-item:nth-child(3n + 1) + .programme-item {
+padding-left: 1%;
+padding-right: 1%;
+}
+.programme-item:nth-child(3n + 1) {
+padding-left: 0;
+padding-right: 1.5%;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------

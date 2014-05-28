@@ -416,6 +416,10 @@ text-align: center;
     font-size: 28px;
 }
 
+.fs-34{
+    font-size: 34px;
+}
+
 /*-------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------COL------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------*/
@@ -672,6 +676,28 @@ background: #002b3d;
 .top-sibdebar-links .encoche:hover .c-b{
 color: #002b3d;
 }
+
+
+.top-sidebar-right {
+width: 75%;
+padding: 2em;
+}
+.top-sidebar-left {
+width: 25%;
+text-align: center;
+overflow: hidden;
+}
+.top-sidebar-right-content {
+position: relative;
+}
+.top-sidebar-dailymotion-link {
+position: absolute;
+top: 0;
+right: 0;
+}
+.top-sidebar-left img {
+max-width: 100%;
+}
 /*------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -781,6 +807,102 @@ margin-right: 0.7em;
 }
 .content-wrapper ul,.content-wrapper p {
 margin-bottom: 0.6em;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------- PROGRAMME--------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.programme-item {
+	position: relative;
+padding-left: 2%;
+height: 240px;
+}
+.programme-item:first-child {
+padding-left: 0;
+padding-right: 2%;
+}
+.programme-item:first-child + .programme-item {
+padding-right: 1%;
+padding-left: 1%;
+}
+.programme-item-inner {
+height: 100%;
+position: relative;
+}
+
+.programme-item-img-wrapper {
+position: absolute;
+left: 0;
+top: 0;
+width: 35%;
+overflow: hidden;
+height: 100%;
+	-webkit-transition: 500ms ease all;
+	-moz-transition: 500ms ease all;
+	-ms-transition: 500ms ease all;
+	-o-transition: 500ms ease all;
+	transition: 500ms ease all;
+}
+.programme-item-content {
+float: right;
+width: 70%;
+height: 100%;
+position: relative;
+overflow: hidden;
+padding: 1em;
+padding-bottom: 90px;
+}
+.programme-item-img-wrapper img {
+display: block;
+min-width: 100%;
+min-height: 100%;
+margin: auto;
+position: absolute;
+top: -100%;
+right: -100%;
+bottom: -100%;
+left: -100%;
+}
+.programme-item-content .encoche-inner {
+padding-bottom: 60px;
+position: relative;
+padding-top: 2.5em;
+padding-right: 2em;
+padding-left: 1em;
+}
+.programme-item-link {
+position: absolute;
+bottom: 1em;
+left: 1em;
+padding: 0.7em 0;
+right: 1em;
+text-align: center;
+font-weight: bold;
+	-webkit-transition: 500ms ease all;
+	-moz-transition: 500ms ease all;
+	-ms-transition: 500ms ease all;
+	-o-transition: 500ms ease all;
+	transition: 500ms ease all;
+}
+.programme-item-title-txt {
+height: 100%;
+overflow: hidden;
+}
+.programme-item-title-txt h3 {
+margin-bottom: 0.5em;
+}
+.programme-item:hover .programme-item-img-wrapper {
+left: -10px;
+}
+.programme-item-link:hover {
+color: #002b3d;
+background: #fff;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------
